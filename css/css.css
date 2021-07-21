@@ -1,29 +1,4 @@
-/* Style the topnav links */
-.topnav a {
-    background-color: #333;  
-    float: left;
-    display: block;
-    color: #fdfdfd;
-    text-align: center;
-    padding: 14px 16px;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #333;
-    color: #fdfdfd;
-  }
 
-  /* On screens that are 880px wide or less, make the menu links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 880px) {
-    .topnav a {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 25%;
-      padding: 8px 8px;
-    }
-}
 
 footer {
   text-align: center;
@@ -54,4 +29,29 @@ table, th, td {border: 1px solid black;
 th, td {
 padding: 5px;
 text-align: left;    
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: 
+  color
 }
