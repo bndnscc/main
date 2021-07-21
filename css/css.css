@@ -56,10 +56,9 @@ body {
   color
 }
 .topnav a {
-  float: none;
+  float: left;
   display: block;
   text-align: left;
   width: 25%;
   padding: 8px 8px;
-}
 }
